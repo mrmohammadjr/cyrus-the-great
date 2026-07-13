@@ -1,26 +1,51 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: iranNastaliq;
+  src: url('./assets/fonts/IranNastaliq.ttf') format('truetype');
+}
+@font-face {
+  font-family: PB;
+  src: url('./assets/fonts/Persianold{@fontbartar}.ttf') format('truetype');
+}
+@font-face {
+  font-family: iranKharazm;
+  src: url('./assets/fonts/ir_kharazmi.ttf') format('truetype');
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  font-family: iranNastaliq;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.PersianFont{
+  font-family: PB;
+}
+.RTL{
+  direction: rtl;
+}
+.KharazmFont{
+  font-family: iranKharazm;
+}
+.bgLegacy{
+  background: url("./assets/oldWall.webp");
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+}
+.test{
+  mix-blend-mode: multiply;
+}
+.bgTransition{
+  background: url("./assets/tape.webp");
+  background-size: contain;
+}
+.bgText{
+  background: url("./assets/old_paper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.bgOutro{
+  background: url("./assets/bozorgDasht.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
 }

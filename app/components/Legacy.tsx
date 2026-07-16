@@ -20,7 +20,7 @@ const Legacy = () => {
         trigger: ".tabletsProvider",
         start: "top center",
         end: "100% center",
-        toggleActions: "play reverse play reverse",
+        toggleActions: "play none none none",
       },
     });
 
@@ -119,17 +119,19 @@ const Legacy = () => {
                   className="
                     text-lg
                     sm:text-xl
+                    max-sm:text-sm
                     KharazmFont
-                  "
-                >
+                    "
+                    >
                   {item?.title}
                 </h3>
 
                 <p
                   className="
-                    KharazmFont
-                    text-xs
+                  KharazmFont
+                  text-xs
                     sm:text-sm
+                    max-sm:text-sm
                     w-full
                     sm:w-40
                   "

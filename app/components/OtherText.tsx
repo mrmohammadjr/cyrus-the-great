@@ -49,7 +49,7 @@ const OtherText = () => {
       <h1 className="p-5 text-2xl text-center border-y-4 border-black bg-gradient-to-r from-[#A77F60] to-[#9A8678]">
         بخشی از متن استوانه کورش (سطر ۲۰ تا ۳۶)
       </h1>
-      <div className="max-w-3xl mx-auto my-10 mx-4 bg-white/80 backdrop-blur-md shadow-xl overflow-hidden rounded-2xl">
+      <div className="max-w-3xl my-10 mx-4 bg-white/80 backdrop-blur-md shadow-xl overflow-hidden rounded-2xl">
         {/* Header */}
 
         {/* Content */}

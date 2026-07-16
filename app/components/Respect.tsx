@@ -45,7 +45,7 @@ const Respect: React.FC = () => {
               start: "top 85%",
               end: "top 60%",
               scrub: 1, // 👈 smooth scroll-based animation
-              toggleActions: "play none none reverse",
+              toggleActions: "play none none none",
             },
           }
         );

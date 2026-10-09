@@ -17,7 +17,7 @@ const Footer:React.FC = () => {
            <Image src={gsap} className="w-10 rounded-md" alt="gsap" />
         </div>
       <div className="mt-5 flex gap-5 justify-center items-center bg-black text-white w-fit p-2 rounded-2xl hover:gap-2 hover:text-purple-500 transition-all">
-        <a href={"https://mrmohammadjr.github.io/portfolio-app/"}>Author</a>
+        <a href={"https://mr-mohammad.javadrma-2017.workers.dev/"}>Author</a>
       </div>
     </div>
   );

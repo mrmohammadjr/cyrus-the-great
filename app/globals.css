@@ -2,7 +2,7 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #000000;
 }
 
 @theme inline {
@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #000000;
     --foreground: #ededed;
   }
 }
@@ -22,5 +22,21 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
+.BannerComponent{
+  background: url("./assets/Tomb.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.CelebrationComponent{
+  background-color: #ededed;
+  background: url("./assets/celeration.webp");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+ .RTL {
+    direction: ltr;
+  }

@@ -28,7 +28,7 @@ const Outro = () => {
   });
   return (
     <section className="outroSection w-full">
-      <div className="flex justify-around outro my-20 ">
+      <div dir="rtl" className="flex justify-around outro my-20 ">
         <p className="text">کورش</p>
         <p>،</p>
         <p className="text">شاه بزرگ</p>

@@ -18,7 +18,9 @@
     --foreground: #ededed;
   }
 }
-
+*{
+  direction: rtl;
+}
 body {
   background: var(--background);
   color: var(--foreground);
@@ -37,6 +39,3 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
- .RTL {
-    direction: ltr;
-  }

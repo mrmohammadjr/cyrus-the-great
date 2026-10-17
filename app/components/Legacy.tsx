@@ -38,7 +38,6 @@ const Legacy = () => {
         scrollTrigger: {
           trigger: containerRef.current,
           start: "top 70%",
-          markers:true,
           toggleActions: "play none none none",
         },
       });

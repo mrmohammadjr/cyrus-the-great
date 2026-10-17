@@ -18,9 +18,7 @@
     --foreground: #ededed;
   }
 }
-*{
-  direction: rtl;
-}
+
 body {
   background: var(--background);
   color: var(--foreground);

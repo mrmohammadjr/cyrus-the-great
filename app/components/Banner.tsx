@@ -21,8 +21,8 @@ const Banner = () => {
       <div className=" w-full h-screen BannerComponent">
         <div className="backG z-30 w-full h-full bg-gradient-to-b from-transparent via-transparent to-yellow-900 p-10">
           <div className="flex flex-col gap-7 mt-[15%]">
-            <h1 className="text-white text-8xl text-right text1">کورش بزرگ</h1>
-            <p className="text-2xl text-right text1">شاهنشاه ایران زمین</p>
+            <h1 className="text-white text-8xl max-lg:text-right lg:text-right text1 max-sm:text-center sm:text-center">کورش بزرگ</h1>
+            <p className="text-2xl max-lg:text-right lg:text-right text1 max-sm:text-center sm:text-center text1">شاهنشاه ایران زمین</p>
           </div>
         </div>
       </div>
@@ -32,4 +32,3 @@ const Banner = () => {
 };
 
 export default Banner;
-// chatGPTthreeAccount

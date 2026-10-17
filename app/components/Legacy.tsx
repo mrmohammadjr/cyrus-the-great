@@ -29,15 +29,16 @@ const Legacy = () => {
       });
 
       // ظاهر شدن آیتم‌ها به‌ترتیب
-      gsap.to(items, {
+       gsap.to(items, {
         autoAlpha: 1,
         y: 0,
-        duration: 0.7,
-        stagger: 0.3,
+        duration: 1,
+        stagger: 0.5,
         ease: "power2.out",
         scrollTrigger: {
           trigger: containerRef.current,
           start: "top 70%",
+          markers:true,
           toggleActions: "play none none none",
         },
       });
